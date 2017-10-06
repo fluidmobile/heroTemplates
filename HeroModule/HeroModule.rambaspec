@@ -26,7 +26,7 @@ code_files:
 - {name: view/View.m, path: Code/view/view.m.liquid}
 
 # contracts
-- {name: contracts/Contracts.m, path: Code/contracts/contracts.m.liquid}
+- {name: contracts/Contracts.h, path: Code/contracts/contracts.h.liquid}
 
 # The declarations for test files
 test_files:
