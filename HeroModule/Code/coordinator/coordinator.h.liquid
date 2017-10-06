@@ -1,0 +1,8 @@
+{% include 'header' %}
+
+#import "HEROBaseCoordinator.h"
+#import "{{ prefix }}{{ module_info.name }}Contracts.h"
+
+@interface {{ prefix }}{{ module_info.name }}Coordinator : HEROBaseCoordinator <{{ prefix }}{{ module_info.name }}RouterOutput, {{ prefix }}{{ module_info.name }}UsecaseOutput, {{ prefix }}{{ module_info.name }}ViewOutput>
+
+@end

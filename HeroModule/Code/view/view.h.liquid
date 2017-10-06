@@ -1,0 +1,12 @@
+{% include 'header' %}
+
+#import "HEROBaseView.h"
+
+@protocol {{ prefix }}{{ module_info.name }}ViewDelegate <NSObject>
+
+@end
+
+@interface {{ prefix }}{{ module_info.name }}View : HEROBaseView
+@property (nonatomic, weak) id<{{ prefix }}{{ module_info.name }}ViewDelegate> delegate;
+
+@end

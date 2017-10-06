@@ -1,0 +1,18 @@
+{% include 'header' %}
+
+#import "{{ prefix }}{{ module_info.name }}Usecase.h"
+
+@interface {{ prefix }}{{ module_info.name }}Usecase ()
+@end
+
+@implementation {{ prefix }}{{ module_info.name }}Usecase
+
+- (void)requestContentUpdate {
+
+}
+
+- (void)dealloc{
+  // Remember to remove observers
+}
+
+@end

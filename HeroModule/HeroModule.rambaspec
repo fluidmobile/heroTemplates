@@ -1,0 +1,35 @@
+# Template information section
+name: sample
+summary: sdf
+author: af
+version: 1.0.0
+license: af
+
+# The declarations for code files
+code_files:
+# coordinator
+- {name: coordinator/Coordinator.h, path: Code/coordinator/coordinator.h.liquid}
+- {name: coordinator/Coordinator.m, path: Code/coordinator/coordinator.m.liquid}
+
+# router
+- {name: router/Router.h, path: Code/router/router.h.liquid}
+- {name: router/Router.m, path: Code/router/router.m.liquid}
+
+# usecase
+- {name: usecase/Usecase.h, path: Code/usecase/usecase.h.liquid}
+- {name: usecase/Usecase.m, path: Code/usecase/usecase.m.liquid}
+
+# view
+- {name: view/ViewController.h, path: Code/view/viewcontroller.h.liquid}
+- {name: view/ViewController.m, path: Code/view/viewcontroller.m.liquid}
+- - {name: view/View.h, path: Code/view/view.h.liquid}
+- {name: view/View.m, path: Code/view/view.m.liquid}
+
+# contracts
+- {name: contracts/Contracts.m, path: Code/contracts/contracts.m.liquid}
+
+# The declarations for test files
+test_files:
+
+# Template dependencies
+dependencies:

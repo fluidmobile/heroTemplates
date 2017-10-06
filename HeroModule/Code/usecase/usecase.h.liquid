@@ -1,0 +1,7 @@
+{% include 'header' %}
+
+#import "{{ prefix }}{{ module_info.name }}Contracts.h"
+
+@interface {{ prefix }}{{ module_info.name }}Usecase : HEROBaseUsecase <{{ prefix }}{{ module_info.name }}UsecaseInput>
+
+@end

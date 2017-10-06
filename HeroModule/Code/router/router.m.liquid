@@ -1,0 +1,17 @@
+{% include 'header' %}
+
+#import "{{ prefix }}{{ module_info.name }}Router.h"
+#import "{{ prefix }}{{ module_info.name }}Contracts.h"
+#import "{{ prefix }}{{ module_info.name }}Controller.h"
+
+@interface {{ prefix }}{{ module_info.name }}Router () <{{ prefix }}{{ module_info.name }}RouterInput>
+
+@end
+
+@implementation {{ prefix }}{{ module_info.name }}Router
+
+-(Class)viewControllerClass{
+	return [{{ prefix }}{{ module_info.name }}ViewController class];
+}
+
+@end
