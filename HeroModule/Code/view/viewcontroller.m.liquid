@@ -9,7 +9,8 @@
 
 @implementation {{ prefix }}{{ module_info.name }}ViewController
 
-- (void)viewDidLoad {
-	[super viewDidLoad];
+		- (void)loadView {
+			self.view = view{{ module_info.name }};
+		}
 
-}
+@end
