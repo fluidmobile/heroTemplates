@@ -1,9 +1,9 @@
 # Template information section
-name: sample
-summary: sdf
-author: af
+name: Hero Module
+summary: Module template
+author: fluidmobile GmbH
 version: 1.0.0
-license: af
+license: MIT
 
 # The declarations for code files
 code_files:

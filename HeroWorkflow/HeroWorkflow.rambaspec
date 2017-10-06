@@ -1,0 +1,19 @@
+# Template information section
+name: Workflow
+summary: Workflow template
+author: fluidmobile GmbH
+version: 1.0.0
+license: MIT
+
+# The declarations for code files
+code_files:
+# workflow
+- {name: workflow/Workflow.h, path: Code/workflow/workflow.h.liquid}
+- {name: workflow/Workflow.m, path: Code/workflow/workflow.m.liquid}
+- {name: workflow/Contract.h}, path: Code/workflow/contract.h.liquid}
+
+# The declarations for test files
+test_files:
+
+# Template dependencies
+dependencies:
