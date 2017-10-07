@@ -22,7 +22,7 @@ code_files:
 # view
 - {name: view/ViewController.h, path: Code/view/viewcontroller.h.liquid}
 - {name: view/ViewController.m, path: Code/view/viewcontroller.m.liquid}
-- - {name: view/View.h, path: Code/view/view.h.liquid}
+- {name: view/View.h, path: Code/view/view.h.liquid}
 - {name: view/View.m, path: Code/view/view.m.liquid}
 
 # contracts
