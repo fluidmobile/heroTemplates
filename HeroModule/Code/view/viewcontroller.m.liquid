@@ -2,6 +2,7 @@
 
 #import "{{ prefix }}{{ module_info.name }}ViewController.h"
 #import "{{ prefix }}{{ module_info.name }}Contracts.h"
+#import "{{ prefix }}{{ module_info.name }}View.h"
 
 @interface {{ prefix }}{{ module_info.name }}Controller () <{{ prefix }}{{ module_info.name }}ViewDelegate, {{ prefix }}{{ module_info.name }}ViewInput>
 @property (nonatomic, strong) {{ prefix }}{{ module_info.name }}View* view{{ module_info.name }};
@@ -9,8 +10,9 @@
 
 @implementation {{ prefix }}{{ module_info.name }}ViewController
 
-		- (void)loadView {
-			self.view = view{{ module_info.name }};
-		}
+- (void)loadView {
+	self.view{{ module_info.name }} = [{{ prefix }}{{ module_info.name }}View new];
+	self.view = self.view{{ module_info.name }};
+}
 
 @end
