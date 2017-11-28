@@ -1,6 +1,6 @@
 # Template information section
-name: Workflow
-summary: Workflow template
+name: HeroWorkflow
+summary: HeroWorkflow template
 author: fluidmobile GmbH
 version: 1.0.0
 license: MIT
